@@ -1,0 +1,386 @@
+%%%%%%%%%%%%%%%%%
+% This is an sample CV template created using altacv.cls
+% (v1.3, 10 May 2020) written by LianTze Lim (liantze@gmail.com). Now compiles with pdfLaTeX, XeLaTeX and LuaLaTeX.
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you need to pass whatever options to xcolor
+\PassOptionsToPackage{dvipsnames}{xcolor}
+
+%% If you are using \orcid or academicons
+%% icons, make sure you have the academicons
+%% option here, and compile with XeLaTeX
+%% or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+%% AltaCV uses the fontawesome5 and academicons fonts
+%% and packages.
+%% See http://texdoc.net/pkg/fontawesome5 and http://texdoc.net/pkg/academicons for full list of symbols. You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
+
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Roboto Slab}
+  \setsansfont{Lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  % If using pdflatex:
+  \usepackage[rm]{roboto}
+  \usepackage[defaultsans]{lato}
+  % \usepackage{sourcesanspro}
+  \renewcommand{\familydefault}{\sfdefault}
+\fi
+
+% Change the colours if you want to
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{DarkPastelRed}{HTML}{450808}
+\definecolor{PastelRed}{HTML}{8F0D0D}
+\definecolor{GoldenEarth}{HTML}{E7D192}
+\colorlet{name}{black}
+\colorlet{tagline}{PastelRed}
+\colorlet{heading}{DarkPastelRed}
+\colorlet{headingrule}{GoldenEarth}
+\colorlet{subheading}{PastelRed}
+\colorlet{accent}{PastelRed}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change some fonts, if necessary
+%\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+%\renewcommand{\personalinfofont}{\footnotesize}
+%\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+%\renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+%\renewcommand{\itemmarker}{{\small\textbullet}}
+%\renewcommand{\ratingmarker}{\footnotesize \faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Jake Zaia}
+%\tagline{Programmer, Student, Mentor}
+%% You can add multiple photos on the left or right
+\photoR{2.5cm}{qr.png}
+% \photoL{2.5cm}{Yacht_High,Suitcase_High}
+
+\personalinfo{%
+  % Not all of these are required!
+  \email{jakezaia00@gmail.com}
+  \phone{(917)-941-6422}
+  \location{Rochester, NY}
+  %\homepage{www.homepage.com}
+  \linkedin{jake-zaia}
+  \github{jzaia18}
+  %% You MUST add the academicons option to \documentclass, then compile with LuaLaTeX or XeLaTeX, if you want to use \orcid or other academicons commands.
+  % \orcid{0000-0000-0000-0000}
+  %% You can add your own arbtrary detail with
+  %% \printinfo{symbol}{detail}[optional hyperlink prefix]
+  % \printinfo{\faPaw}{Hey ho!}[https://example.com/]
+  %% Or you can declare your own field with
+  %% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
+  % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
+  % \gitlab{your_id}
+}
+
+\makecvheader{}
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+% \AtBeginEnvironment{itemize}{\small}
+
+%% Set the left/right column width ratio to 6:4.
+\columnratio{0.64}
+
+% Start a 2-column paracol. Both the left and right columns will automatically
+% break across pages if things get too long.
+\begin{paracol}{2}
+
+\cvsection{Experience}
+
+\cvevent{Software Engineer}{Herrick Technology Laboratories}{May 2020 \textemdash{} December 2020}{Germantown, MD}
+\begin{itemize}
+\item Writes firmware to interface with various sensors over UART and I\textsuperscript{2}C.
+\item Programs FreeRTOS systems on a Nios II soft core.
+\item Created a framework for transmitting via the redhawk software defined radio framework.
+\item Wrote backend software supporting direction finding capabilities of a software defined radio.
+\end{itemize}
+
+\divider{}
+
+\cvevent{Computer Science Tutor}{Wyzant Inc.}{May 2019 \textemdash{} Present}{Online}
+\begin{itemize}
+\item Teaches various math and computer science topics to high school, college, and adult students.
+\item Manages schedules of clients located across multiple time zones.
+\end{itemize}
+
+\divider{}
+
+\cvevent{Summer Intern for Mainframe Security}{Morgan Stanley}{July 2018 \textemdash{} August 2018}{New York, NY}
+\begin{itemize}
+\item Implemented an internal website to resolve mainframe issues.
+\item Created a front end interface and worked to maintain a good user experience.
+\item Worked with Proids (bots) on RACF and TSS mainframes to query for basic user information.
+\end{itemize}
+
+\cvsection{Volunteer Work}
+
+\cvevent{Teacher's Assistant}{Stuyvesant High School}{January 2017 \textemdash{} June 2018}{New York, NY}
+\begin{itemize}
+\item Taught students various computer science topics.
+\item Ensured students were well behaved and focused on relevant tasks.
+\end{itemize}
+
+\divider{}
+
+\cvevent{Sensei (Tutoring Center Manager)}{Stuyvesant CS Dojo}{September 2016 \textemdash{} June 2018}{New York, NY}
+\begin{itemize}
+\item Taught students various computer science topics.
+\item Managed students to ensure that all personnel were being employed efficiently.
+\item Established a safe and open atmosphere for collaboration and teamwork.
+\item Performed various hardware and software repairs.
+\end{itemize}
+
+%% \divider{}
+
+\cvevent{Volunteer Tutor}{Computer Science and Technology for Urban Youth}{September 2016 \textemdash{} June 2018}{New York, NY}
+\begin{itemize}
+\item Taught Java, Processing-Java, and basic computing concepts.
+\item Enticed an audience using demonstrable projects.
+\item Managed students and ensured order in a classroom.
+\end{itemize}
+
+
+\cvsection{Projects}
+\small
+
+\cvproject{Corundum Graphics Engine}{Ruby, Python}{January 2018 \textemdash{} June 2018}{}
+\small{}A fully functional graphics engine built in Ruby that supports loading .obj files, and animations.
+Lighting utilizes the Phong reflection model, and the graphics commands are handled by a customized language with its own lexer and parser.
+
+\divider{}
+
+\cvproject{The Internet of Things}{Python, JavaScript, HTML5, GCP}{October 2019}{Hack Upstate XIV}
+\small{}A fully deployed social networking web application that has users discussing, comparing, and rating places and things anonymously.
+Uses Google Cloud Platform utilities to automatically parse image data for starting conversations.
+
+\divider{}
+
+\cvproject{The Safety Gauntlet}{Python, JavaScript, MongoDB, Arduino}{September 2019}{BigRed//Hacks}
+\small{}Wearable hardware that puts important environmental and safety information in the hands of first responders and the people who need it the most.
+The Arduino wearable communicates through Bluetooth LE to a centralized server for data aggregation.
+
+\divider{}
+
+\cvproject{Tamagogo}{Python, JavaScript, HTML5, MongoDB}{February 2019}{BrickHack V}
+\small{}A deployed web-based game about helping your community become a better place, both environmentally and socially.
+Users are rewarded for doing good deeds with virtual creatures.
+
+\divider{}
+
+\cvproject{Grov}{C\#, MonoGame}{January 2019 \textemdash{} May 2019}{}
+\small{}A 3rd person shooter/exploration game that has players exploring a procedurally generated enchanted forest.
+Features variable weapons, powerups, and enemies.
+
+\divider{}
+
+\cvproject{Tapout}{Python, JavaScript, HTML5, Firebase}{June 2018}{StuyHacks VI}
+\small{}A web-based rhythm game in the style of Jackbox Games that has players tapping out songs for one another to guess for points.
+
+\divider{}
+
+\cvproject{Jammi}{Python, JavaScript, HTML5, Firebase}{May 2018 \textemdash{} June 2018}{}
+\small{}A web app that allows multiple users to view a youtube video together, synchronized in real-time while having a comfortable chat via a chat room.
+
+\divider{}
+
+\medskip
+
+% use ONLY \newpage if you want to force a page break for
+% ONLY the current column
+%\newpage
+
+% more sections would go here
+
+
+%% Switch to the right column. This will now automatically move to the second
+%% page if the content is too long.
+\switchcolumn{}
+\cvsection{Languages}
+
+\cvskill{Python}{5}
+\divider{}
+
+\cvskill{C}{5}
+\divider{}
+
+\cvskill{Java}{4}
+\divider{}
+
+\cvskill{JavaScript}{3}
+\divider{}
+
+\cvskill{C++}{3}
+\divider{}
+
+\cvskill{C\#}{3}
+\divider{}
+
+\cvskill{Assembly (MIPS/Arm)}{3}
+\divider{}
+
+\cvskill{Ruby}{2}
+\divider{}
+
+
+\cvsection{Technical Skills}
+
+\cvskill{HTML + CSS}{5}
+\divider{}
+
+\cvskill{Python Flask}{5}
+\divider{}
+
+\cvskill{Linux Systems}{5}
+\divider{}
+
+\cvskill{Bootstrap/Materialize}{4}
+\divider{}
+
+\cvskill{EMACS}{4}
+\divider{}
+
+\cvskill{Bash Scripting}{4}
+\divider{}
+
+\cvskill{MongoDB}{3}
+\divider{}
+
+\cvskill{Digital Electronics}{3}
+\divider{}
+
+\cvskill{Systems Administration}{3}
+\divider{}
+
+\cvskill{RegEx}{2}
+\divider{}
+
+\cvskill{Qt}{2}
+\divider{}
+
+\cvskill{\LaTeX}{2}
+\divider{}
+
+\cvskill{MATLAB}{2}
+\divider{}
+
+\cvskill{Protobuf}{2}
+\divider{}
+
+\cvskill{SQL}{2}
+\divider{}
+
+\newpage
+
+\cvsection{Awards}
+
+\cvachievement{Winner: IBM Code \& Response Challenge}{Cusehacks 2020}
+\divider{}
+
+\cvachievement{Best Use of Wolfram|Alpha API}{HackRPI 2019}
+\divider{}
+
+\cvachievement{Most Useless Hack}{DandyHacks 2019}
+\divider{}
+
+\cvachievement{Best Use of MongoDB}{BigRed//Hacks 2019}
+\divider{}
+
+\cvachievement{Best Game}{StuyHacks 2018}
+\divider{}
+
+\cvachievement{Golden Ducky Award}{Stuyvesant High School (2018)}
+\divider{}
+
+%% \cvsection{Strengths}
+
+%% \cvtag{Hard-working}
+%% \cvtag{Eye for detail}\\
+%% \cvtag{Motivator \& Leader}
+
+%% \divider\smallskip
+
+%% \cvtag{C++}
+%% \cvtag{Embedded Systems}\\
+%% \cvtag{Statistical Analysis}
+%% \medskip
+
+\cvsection{Activities}
+
+\cvachievement{RIT Linux User’s Group}{Secretary}
+\divider{}
+
+\cvachievement{StuyHacks}{Mentor}
+\divider{}
+
+\cvachievement{RITSec}{Member}
+\divider{}
+
+\cvachievement{CodeRIT}{Member}
+\divider{}
+
+\cvachievement{Rockstar Esolang}{Rockstar Developer}
+\divider{}
+
+\cvachievement{Stuyvesant CS Dojo Website}{Web Developer}
+\divider{}
+
+\cvachievement{Cyberstuy}{Workshop Captain}
+\divider{}
+
+\cvachievement{Dungeons \& Dragons}{Player \& DM}
+\divider{}
+
+\cvachievement{FRC Robotics}{Software Engineer}
+\divider{}
+
+\medskip
+
+
+\cvsection{Education}
+
+\cvproject{B.S. Computer Science}{Rochester Institute of Technology}{Aug 2018 \textemdash{} May 2023 (Expected)}{}
+\small{}GPA:\@ 3.93\@ (4.0 in-major)
+
+\divider{}
+
+\cvproject{}{Stuyvesant High School}{Sept 2014 \textemdash{} June 2018}{}
+\small{}GPA:\@ 3.7
+
+\divider{}
+
+\end{paracol}
+
+
+\end{document}
