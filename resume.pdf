@@ -168,15 +168,15 @@ stream
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> 
    <xmp:CreatorTool>LaTeX with hyperref</xmp:CreatorTool> 
-   <xmp:ModifyDate>2021-01-13T16:32:20-05:00</xmp:ModifyDate> 
-   <xmp:CreateDate>2021-01-13T16:32:20-05:00</xmp:CreateDate> 
-   <xmp:MetadataDate>2021-01-13T16:32:20-05:00</xmp:MetadataDate> 
+   <xmp:ModifyDate>2021-01-28T15:56:50-05:00</xmp:ModifyDate> 
+   <xmp:CreateDate>2021-01-28T15:56:50-05:00</xmp:CreateDate> 
+   <xmp:MetadataDate>2021-01-28T15:56:50-05:00</xmp:MetadataDate> 
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmpRights = "http://ns.adobe.com/xap/1.0/rights/"> 
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"> 
    <xmpMM:DocumentID>uuid:7F03BF2B-EE73-08AB-175F-ED5A01CE53FD</xmpMM:DocumentID> 
-   <xmpMM:InstanceID>uuid:C9525371-13E6-95FA-29ED-67AB84D26069</xmpMM:InstanceID> 
+   <xmpMM:InstanceID>uuid:F5148EFB-E9E7-FCE4-4AEC-2480F54A9E53</xmpMM:InstanceID> 
   </rdf:Description> 
  </rdf:RDF> 
 </x:xmpmeta> 
@@ -201,7 +201,7 @@ endobj
 <</Type/Pages/Count 2/Kids[3 0 R 26 0 R]/MediaBox[0 0 595.28 841.89]>>
 endobj
 2 0 obj
-<</Creator(LaTeX with hyperref)/CreationDate(D:20210113163220-05'00')/ModDate(D:20210113163220-05'00')/Producer(XeTeX)/Trapped/False/GTS_PDFA1Version(PDF/A-1b:2005)>>
+<</Creator(LaTeX with hyperref)/CreationDate(D:20210128155650-05'00')/ModDate(D:20210128155650-05'00')/Producer(XeTeX)/Trapped/False/GTS_PDFA1Version(PDF/A-1b:2005)>>
 endobj
 1 0 obj
 <</Lang(en-US)/ViewerPreferences<</DisplayDocTitle true>>/OutputIntents 7 0 R/Metadata
@@ -213,7 +213,7 @@ stream
 /CIDInit /ProcSet findresource begin
 12 dict begin
 begincmap
-/CMapName /HUQWUC+Lato-Bold-UTF16 def
+/CMapName /SBUOKO+Lato-Bold-UTF16 def
 /CMapType 2 def
 /CIDSystemInfo <<
   /Registry (Adobe)
@@ -304,7 +304,7 @@ stream
 /CIDInit /ProcSet findresource begin
 12 dict begin
 begincmap
-/CMapName /SYBFTL+Lato-Regular-UTF16 def
+/CMapName /KGNAVS+Lato-Regular-UTF16 def
 /CMapType 2 def
 /CIDSystemInfo <<
   /Registry (Adobe)
@@ -558,18 +558,18 @@ Z
 endstream
 endobj
 9 0 obj
-<</Type/Font/Subtype/CIDFontType2/BaseFont/HUQWUC+Lato-Bold/FontDescriptor 33 0 R/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement
+<</Type/Font/Subtype/CIDFontType2/BaseFont/SBUOKO+Lato-Bold/FontDescriptor 33 0 R/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement
 0>>/DW 580/W 34 0 R/CIDToGIDMap/Identity>>
 endobj
 33 0 obj
 <</Type/FontDescriptor/Ascent 987/Descent -213/StemV 165/CapHeight 987/AvgWidth 564/FontBBox[-603
--285 1344 1100]/ItalicAngle 0/Flags 262150/Style<</Panose<0000020f0502020204030203>>>/FontName/HUQWUC+Lato-Bold/CIDSet
+-285 1344 1100]/ItalicAngle 0/Flags 262150/Style<</Panose<0000020f0502020204030203>>>/FontName/SBUOKO+Lato-Bold/CIDSet
 35 0 R/FontFile2 36 0 R>>
 endobj
 38 0 obj
 <</Subtype/CIDFontType0C/Length 1300>>
 stream
-  OZOUKT+FontAwesome5Free-Solid Møø‹ø øø ø ø!ézebÿH¨(Tûuú     ø"  Õ$  % $Jd}‚FontAwesome5Free-SolidAdobeIdentity331.008 (Font Awesome version: 5.13.0)Copyright (c) Font AwesomeFont Awesome 5 Free SolidSolid    w µ Å}        $ Z ¶à<Æ¥ı‹¼øx¼¼¼÷Ä¼¼ø&øÚü&¼ü©øx÷Äüxü‹ù‚÷ä"p³‹¦÷°ø/¿¶‹÷+÷cû<÷<ûcûcû<û<ûc‹û+¿`÷°ü/úXùÏû_ºut€‚v-ûoƒx‘t›~÷
+  NFICAC+FontAwesome5Free-Solid Møø‹ø øø ø ø!ézebÿH¨(Tûuú     ø"  Õ$  % $Jd}‚FontAwesome5Free-SolidAdobeIdentity331.008 (Font Awesome version: 5.13.0)Copyright (c) Font AwesomeFont Awesome 5 Free SolidSolid    w µ Å}        $ Z ¶à<Æ¥ı‹¼øx¼¼¼÷Ä¼¼ø&øÚü&¼ü©øx÷Äüxü‹ù‚÷ä"p³‹¦÷°ø/¿¶‹÷+÷cû<÷<ûcûcû<û<ûc‹û+¿`÷°ü/úXùÏû_ºut€‚v-ûoƒx‘t›~÷
 *Eû*ûûû-C*÷~›txƒûn-v‚tuºû_v|¡‹øˆ‹ø*ø)‹ø‰‹¡|vûC3v÷û÷‹÷~ûm÷tÃøÃ÷tûn÷Èù%øÆo÷BH÷=‹=‹IûoûB|ûO‹`ac÷ş³µ‹¶‹¶ˆµ‡³ûş‡c‰a‹`ù÷OS÷ûòû ´»I¬'œûü
 ÷©ûbû$Sû÷gœ÷«ï»ÍÌøòûçûtÊba‹aÌ‹a‰a‡b÷tÊ–³‘µ‹¶‹¶…µ€³èıbûØ‹µµ´ûtè€c…a‹`Ø‹`‘a–c÷t‡´ˆµ‹µÙûO§ûBÍûÙ‹Ù‹Î÷§÷Biû©÷´÷òÃ÷ûgzûk'[Iüİ÷©Ãû÷$÷ b[Íkïz÷ûú\›ú\øˆùïû ûlûlû û ÷lûl÷ ÷ ÷l÷l÷ ÷ ûl÷lû ùøùøıÀü-_«ûï‹÷ëûë‹'÷k·éøùÀªÖ:Ü@lû ûùÉ÷ÍûÍ÷P‹ùÿıC÷÷÷¢øˆ~~üWµa¿ùC¿µµ¿ø˜•~¢áÑ¬¿aµW.ñÌ˜€•~=~€~¬%ûñÈ˜•~=~~¨%-°WaaWE~•€˜ùÑ˜•–˜û÷÷÷û÷÷x÷"õ÷›÷Ù÷<øl÷¿øˆùïû ûlûlû û ÷lûl÷ é‹ç¦Ù¾¢š‘«y¡w¤|qw~QfHwF‹ûZû5÷5÷Z÷Z÷5÷5÷Z÷X÷7ûû\‹?b;CƒiŒ‹£’­¹÷‘¨t¥n‹3~‹Š~n®Y’e‹û&ûûûBßûÒ=÷À‹Çª­·¿HÇ‹Æ‹÷iÛ÷ ÷(÷ûj÷?û¢ßaüæ`o©¼ãÈÁÁ·¤nY3IU\ ø&   +  éú|wñ’øŒ—÷Y“›‹û‘²
 ÷
@@ -586,18 +586,18 @@ stream
 endstream
 endobj
 11 0 obj
-<</Type/Font/Subtype/CIDFontType0/BaseFont/OZOUKT+FontAwesome5Free-Solid/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement
+<</Type/Font/Subtype/CIDFontType0/BaseFont/NFICAC+FontAwesome5Free-Solid/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement
 0>>/FontDescriptor 37 0 R/DW 500/W 39 0 R>>
 endobj
 37 0 obj
 <</Type/FontDescriptor/Ascent 875/Descent -125/StemV 125/CapHeight 875/AvgWidth 973/FontBBox[-55
--127 7797 876]/ItalicAngle 0/Flags 6/Style<</Panose<000002000503000000000000>>>/FontName/OZOUKT+FontAwesome5Free-Solid/FontFile3
+-127 7797 876]/ItalicAngle 0/Flags 6/Style<</Panose<000002000503000000000000>>>/FontName/NFICAC+FontAwesome5Free-Solid/FontFile3
 38 0 R/CIDSet 40 0 R>>
 endobj
 42 0 obj
 <</Subtype/CIDFontType0C/Length 972>>
 stream
-  "XMRCIC+FontAwesome5Brands-Regular Løø‹ø øø ø øézebÿH¨(Tûuú   
+  "TCUBKK+FontAwesome5Brands-Regular Løø‹ø øø ø øézebÿH¨(Tûuú   
   Ô"  €$  %  (Nh…FontAwesome5Brands-RegularAdobeIdentity331.008 (Font Awesome version: 5.13.0)Copyright (c) Font AwesomeFont Awesome 5 Brands Regular    D H        $ Ç_ü£‹¼øx¼¼¼÷Ä¼¼ø&øÚü&¼ü©øx÷ÄüxM÷ø6Ä\÷Öû÷‹÷û÷÷!Ü÷÷%÷÷—ÀùÀùÀı‚ioohı€h§o­ù‚­¨§®ù€®n§iü¸ı‚ËÀûø6÷ü6Jøo×Àai­´´­®µ´­hbajjaø»üoû÷`»ŠÉIGVUûcûø6÷R£Àœ¬¶­Ê‹÷¤4ûPí™İ”ø6÷‚‹÷Eƒ˜øı÷>ä÷Øî‹†…Š…‹‡ˆ‹‡‹‡‡‘Œ‘N”Š‡†‘Š‰‘ŒŒ‡…†Œ…ŠŠ‡â…Š‡†Œ‡Œ‡‰‘Œ‘ŒŠŠ‡…Š÷ù€ôû£ûcûaû£‹ûm÷ûM÷WJ¤‡”™‹˜‹—ŠÎ‹´‹‹ûnnâ‹‹uÄkš‹‹^ª»Š‹‹»‡¦]¶@Ò §˜ª™¡™˜û—ûš‹÷P‹Áš¦ª­†˜{¿¦Ï´˜èI‹‹²–µ‘µ‹µ‹µ…²€‹‹èÍ´~¦GzW†~ªhŸq‹U‹ûPû|û|šm‹]‹IŠ:‹{‹~”|¤÷WÌ÷÷M‹÷m÷£ûp÷aû£û´ı5ˆ‰Œ‡‡ˆ‰Šˆˆ‡ˆˆìv›ŠˆŒˆ‰‰‹ŒôŒ‰‡‡Œˆ‹Š‰ÊEˆˆ†‡‡ŠŠ‡‡…Œˆˆu¨ˆ‰‹…‡‡‰‹ˆˆ†ˆˆ ø&   8  ”ùÿú—ñ’øŒ—÷Y“›‹û‘²
 Ñ
 ›•“’’“ªİ›–›”™‘–¦Æ
@@ -613,12 +613,12 @@ stream
 endstream
 endobj
 16 0 obj
-<</Type/Font/Subtype/CIDFontType0/BaseFont/XMRCIC+FontAwesome5Brands-Regular/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement
+<</Type/Font/Subtype/CIDFontType0/BaseFont/TCUBKK+FontAwesome5Brands-Regular/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement
 0>>/FontDescriptor 41 0 R/DW 500/W 43 0 R>>
 endobj
 41 0 obj
 <</Type/FontDescriptor/Ascent 875/Descent -125/StemV 82/CapHeight 875/AvgWidth 925/FontBBox[-55
--130 7797 876]/ItalicAngle 0/Flags 6/Style<</Panose<000002000503000000000000>>>/FontName/XMRCIC+FontAwesome5Brands-Regular/FontFile3
+-130 7797 876]/ItalicAngle 0/Flags 6/Style<</Panose<000002000503000000000000>>>/FontName/TCUBKK+FontAwesome5Brands-Regular/FontFile3
 42 0 R/CIDSet 44 0 R>>
 endobj
 46 0 obj
@@ -817,26 +817,26 @@ rp	a   dK\lLYY@>=<:7653+*$##$##
 endstream
 endobj
 22 0 obj
-<</Type/Font/Subtype/CIDFontType2/BaseFont/SYBFTL+Lato-Regular/FontDescriptor 45 0 R/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement
+<</Type/Font/Subtype/CIDFontType2/BaseFont/KGNAVS+Lato-Regular/FontDescriptor 45 0 R/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement
 0>>/DW 580/W 46 0 R/CIDToGIDMap/Identity>>
 endobj
 45 0 obj
 <</Type/FontDescriptor/Ascent 987/Descent -213/StemV 87/CapHeight 987/AvgWidth 554/FontBBox[-546
--268 1343 1079]/ItalicAngle 0/Flags 6/Style<</Panose<0000020f0502020204030203>>>/FontName/SYBFTL+Lato-Regular/CIDSet
+-268 1343 1079]/ItalicAngle 0/Flags 6/Style<</Panose<0000020f0502020204030203>>>/FontName/KGNAVS+Lato-Regular/CIDSet
 47 0 R/FontFile2 48 0 R>>
 endobj
 10 0 obj
-<</Type/Font/Subtype/Type0/BaseFont/HUQWUC+Lato-Bold/Encoding/Identity-H/DescendantFonts[9 0 R]/ToUnicode
+<</Type/Font/Subtype/Type0/BaseFont/SBUOKO+Lato-Bold/Encoding/Identity-H/DescendantFonts[9 0 R]/ToUnicode
 31 0 R>>
 endobj
 12 0 obj
-<</Type/Font/Subtype/Type0/BaseFont/OZOUKT+FontAwesome5Free-Solid-Identity-H/Encoding/Identity-H/DescendantFonts[11 0 R]>>
+<</Type/Font/Subtype/Type0/BaseFont/NFICAC+FontAwesome5Free-Solid-Identity-H/Encoding/Identity-H/DescendantFonts[11 0 R]>>
 endobj
 17 0 obj
-<</Type/Font/Subtype/Type0/BaseFont/XMRCIC+FontAwesome5Brands-Regular-Identity-H/Encoding/Identity-H/DescendantFonts[16 0 R]>>
+<</Type/Font/Subtype/Type0/BaseFont/TCUBKK+FontAwesome5Brands-Regular-Identity-H/Encoding/Identity-H/DescendantFonts[16 0 R]>>
 endobj
 23 0 obj
-<</Type/Font/Subtype/Type0/BaseFont/SYBFTL+Lato-Regular/Encoding/Identity-H/DescendantFonts[22 0 R]/ToUnicode
+<</Type/Font/Subtype/Type0/BaseFont/KGNAVS+Lato-Regular/Encoding/Identity-H/DescendantFonts[22 0 R]/ToUnicode
 32 0 R>>
 endobj
 xref
@@ -891,7 +891,7 @@ xref
 0000384574 00000 n 
 0000384934 00000 n 
 trailer
-<</Root 1 0 R/Info 2 0 R/ID[<efa9d730f38d99a13b017ba47008a2fb><efa9d730f38d99a13b017ba47008a2fb>]/Size
+<</Root 1 0 R/Info 2 0 R/ID[<b87582a376c3a26e7445e699122d3b87><b87582a376c3a26e7445e699122d3b87>]/Size
 49>>
 startxref
 423519
